@@ -1,2 +1,5 @@
 # Student-Score-Prediction-Based-on-Study-Habits
 A regression-based project to predict students’ exam scores using study hours and attendance data.
+
+
+This project focuses on predicting student performance based on their study habits using a regression model. The primary goal is to estimate a student’s final exam score by analyzing two key factors: **hours studied** and **attendance percentage**. The project begins with data collection and preprocessing using **Pandas**, ensuring that the dataset is clean and consistent. Exploratory data analysis and visualization are carried out with **Matplotlib** and **Seaborn** to understand relationships between variables. A **Linear Regression model** is then trained using **Scikit-learn**, where the data is split into training and testing sets to evaluate performance. The model’s accuracy is assessed using metrics like the **R² score** and **Mean Absolute Error (MAE)**. Finally, the model can predict scores for new inputs, such as estimating performance for a student with specific study hours and attendance. This project demonstrates the application of data science in education and predictive analytics.
